@@ -1,0 +1,32 @@
+{
+  "name": "wp-bump",
+  "version": "0.1.0",
+  "description": "Bumps a Wordpress theme's functions.php assets versions numbers",
+  "author": "justanother.io admin@justanother.io http://justanother.io",
+  "homepage": "https://github.com/justanotherio/wp-bump#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/justanotherio/wp-bump"
+  },
+  "keywords": [
+    "wordpress",
+    "themes",
+    "functions.php",
+    "version",
+    "versioning",
+    "revision",
+    "wp"
+  ],
+  "bugs": {
+    "url": "https://github.com/justanotherio/wp-bump/issues"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3"
+  }
+}
