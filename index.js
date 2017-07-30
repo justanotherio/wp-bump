@@ -29,7 +29,7 @@ function wpBump(needle, haystack) {
 
     // OPTIONAL: List of dependencies
     // Preceding comma is grouped with optional arg
-    var deps = '(?:(?:\\s*?,\\s*)(?:null|false|array.*?\\)))?';
+    var deps = '(?:(?:\\s*?,\\s*)(?:null|false|array.*?\\)|[$].*))?';
 
     // OPTIONAL: Version number (capturing value)
     // Accommodates alphanumeric strings, get params ?v=, and null and false without quotes
